@@ -5,7 +5,7 @@
 - recipe_id: "transparency/expenses"
 - recipe_version: "1.0.1"
 - generated_by: "ApiCrumbs_Foundry_v2"
-- last_updated: "2026-04-13T15:58:51+02:00"
+- last_updated: "2026-04-13T16:24:18+02:00"
 - status: "Grounded_Truth"
 - schema: "v2.0-Alpha"
 ---
@@ -84,7 +84,17 @@
 - [SOURCE URL: https://www.leicestershire.gov.uk/sites/default/files/2026-03/payments-to-suppliers-over-500-february-2026.csv ]
 
 ###  GET /finance/supplier/daily-breakdown
- **STATUS: 204** | No daily transactions found.
+####  Monthly Activity Timeline
+
+| Date | Volume | Total Paid | Intensity |
+| :--- | :--- | :--- | :--- |
+|  `N/A` | 1065 | £2,714,197.33 | `*****` |
+---
+- [CRUMB: transparency/expensessupplierdailybreakdown]
+- [SOURCE: payments-to-suppliers-over-500-february-2026.csv ]
+- [REF: Leicestershire Council Council February 2026 Expenses]
+- [SECURITY: STRICT [PII_CLEAN] | ENGINE=ApiCrumbs_v1]
+- [SOURCE URL: https://www.leicestershire.gov.uk/sites/default/files/2026-03/payments-to-suppliers-over-500-february-2026.csv ]
 
 ---
 Generated via ApiCrumbs Foundry. Visit https://apicrumbs.com for real-time updates.
